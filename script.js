@@ -1,4 +1,4 @@
-// เพิ่ท JaveScript สำหรับการโต้ตอบกับผู้ใช้ (Optional)
-document.addEventListener('DOMContentLoaded' ,function () {
-console.log('portfolio ของ Phichinad พร้อมแล้ว!');
+document.addEventListener('DOMContentLoaded',function () {
+    document.getElementById('year').innerHTML = new Date().getFullYear();
+    console.log('Portfolio ของ phichinad พร้อมแล้ว!');
 });
