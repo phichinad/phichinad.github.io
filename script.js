@@ -1,3 +1,3 @@
 document.addEventListener('DOMContentLoaded',function () {
-  console.log('Portfolio ของ phichinad พร้อมแล้ว!');
-});
+  document.getElementById('year').innerHTML = new Date().getFullYear();
+  console.log('pirtfolio ของ phichinad พร้อมแล้ว !');
